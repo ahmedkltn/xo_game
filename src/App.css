@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Ubuntu:wght@700&display=swap");
+div.main {
+  height: 600px;
+  width: 600px;
+  display: flex;
+  column-gap: 30px;
+  flex-wrap: wrap;
+  background-color: #292f36;
+  margin: auto;
+  padding: 20px;
+  justify-content: center;
+}
+h1.title {
+  color: #eaf2e3;
+  font-size: 2.9em;
+  font-family: "Ubuntu", sans-serif !important;
+}
+span#X {
+  color: #fb3640;
+}
+span#O {
+  color: #ffa400;
+}
+button.reset {
+  background-color: #ffa400;
+  padding: 6px;
+  margin-top: 7px;
+  border: 2px solid #292f36;
+  border-radius: 7%;
+  transition: 300ms;
+}
+button.reset:hover {
+  background-color: #292f36;
+  color: #ffa400;
+  border: 2px solid #ffa400;
+}
